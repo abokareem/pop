@@ -1,5 +1,23 @@
 # Bruteforce HTTP Authentication
 
+تخمين يوزر وباسورد صفحات البوب
+يدعم  
+
+* Basic HTTP authentication
+* Digest HTTP authentication
+* NTLM authentication
+يعمل بكافة الاشكال تقريبا ويستخدم قوائم ايبيهات دومينات  ببورت بدون برابط او بدون  يعمل اى بى واحد او مجموعة 
+يستخدم يوزر واحد او مجموعة يوزرات او باسورد واحد او مجموعة ضخمة  يخزن النتائج فى ملف نصي
+
+
+أمر التركيب 
+
+pip install -r requirements.txt
+
+أمر التشغيل
+python3 auth.py -T IPS.txt -U username.txt -P password.txt --verbose
+
+مع تحيات ابو كريم 
 
 ### Warning
 
@@ -11,10 +29,7 @@
 
 Simple tool to bruteforce HTTP authentication forms.
 
-Supports:
-* Basic HTTP authentication
-* Digest HTTP authentication
-* NTLM authentication
+
 
 
 
